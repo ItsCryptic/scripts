@@ -1,2 +1,2 @@
-@echo off
+#/bin/bash
 sudo pacman -Syu
