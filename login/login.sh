@@ -1,3 +1,3 @@
-#/bin/bash
+#!/bin/bash
 screen premid
 emacs --daemon
