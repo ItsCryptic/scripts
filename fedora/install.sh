@@ -4,22 +4,22 @@ echo "Hello! This script will setup your system for use. Please only run this on
 
 #Do updates
 sudo dnf upgrade --refresh -y
-#Add flathub
+#Add Flathub
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-#Install applications
-#Install discord
+#Install Applications
+#Install Discord
 sudo flatpak install com.discordapp.Discord -y
-#Install flatseal
+#Install Flatseal
 sudo flatpak install com.github.tchx84.Flatseal -y 
-#Install dolphin
+#Install Dolphin
 sudo flatpak install org.DolphinEmu.dolphin-emu -y
-#Install vscode
+#Install VSCode
 sudo flatpak install com.visualstudio.code -y
-#Install steam
+#Install Steam
 sudo flatpak install com.valvesoftware.Steam -y
-#Install zoom
+#Install Zoom
 sudo flatpak install us.zoom.Zoom -y
-#Install minecraft
+#Install Minecraft
 sudo flatpak install com.mojang.Minecraft -y
 #Install lunar client
 sudo flatpak install com.lunarclient.LunarClient -y
@@ -33,7 +33,7 @@ sudo dnf install zsh -y
 #Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-#Install starship
+#Install Starship
 sudo dnf install starship
 
 #Export variables & aliases
